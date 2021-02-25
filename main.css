@@ -616,6 +616,10 @@ img {
   flex-wrap: wrap;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -710,6 +714,10 @@ img {
 
 .text-3xl {
   font-size: 1.875rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
 }
 
 .text-6xl {
@@ -933,10 +941,6 @@ img {
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
 }
 
 .pl-16 {
@@ -1400,8 +1404,28 @@ img {
     flex-direction: column;
   }
 
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+  }
+
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .lg\:p-10 {
+    padding: 2.5rem;
+  }
+
   .lg\:pt-5 {
     padding-top: 1.25rem;
+  }
+
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .lg\:pl-16 {
