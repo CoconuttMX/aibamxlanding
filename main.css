@@ -835,6 +835,10 @@ img {
   padding: 5rem;
 }
 
+.p-32 {
+  padding: 8rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
