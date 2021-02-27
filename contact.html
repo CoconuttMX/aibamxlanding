@@ -52,35 +52,24 @@
     hamburger.addEventListener('click', function () {
         mobileMenu.classList.toggle('hidden');
     });
-</script><div class="w-full flex flex-col lg:flex-row container"><div class="w-full lg:w-1/2 flex bg-no-repeat bg-cover " style="background-image: url('static/img.png')"></div><div class="w-full lg:w-1/2"><div class="text-3xl pt-5 text-gris font-bold pl-5 lg:pl-20 pr-5 font-Roboto">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua”</div><div class="text-2xl pt-5 text-gris pl-20 hidden lg:block pr-5 font-Rubik">Ayudamos a las marcas a simplificar su operación por medio de tecnología. Utilizando nuestra plataforma nuestros clientes pueden administrar sus pedidos, conocer los inventarios en nuestros centros de distribución, así como métricas que les permiten tomar mejores decisiones en su negocio. </div><img class="pl-5 pr-5 lg:hidden block" src="static/img.png" alt=""><form class="pr-5" action="#"><div class="w-full flex flex-col lg:flex-row lg:pt-5 lg:pl-16 pt-5"><div class="w-full lg:w-1/2 flex flex-col pl-5"><label for="firstName" class="text-gris pb-2">Nombre</label>
-<input type='text' name='firstName' class="px-3 py-3 border border-morado rounded font-Rubik" required /> <br>
-<label for="lastName" class="text-gris pt-2 pb-2">Apellidos</label>
-<input type='text' name='lastName' class="px-3 py-3 border border-morado rounded font-Rubik" required /> <br>
-<label for="email" class="text-gris pt-2 pb-2" required>Correo </label>
-<input type='text' name='email' class="px-3 py-3 border border-morado rounded font-Rubik" /><br>
-<label for="phone" class="text-gris pt-2 pb-2" required>Telefono</label> 
-<input type='text' name='phone' class="px-3 py-3 border border-morado rounded font-Rubik" /><br>
-<input type='submit' name='submit' class="hidden lg:block mt-5 text-white bg-morado rounded-full font-bold font-Roboto p-2 px-16" /></div><div class="w-full lg:w-1/2 flex flex-col pl-5">         <label for="company" class="text-gris pb-2">Nombre de la empresa</label>
-<input type='text' name='company' class="px-3 py-3 border border-morado rounded font-Rubik" /> <br>
-<label for="webSite" class="text-gris pt-2 pb-2">Sitio de la empresa  </label>
-<input type='text' name='webSite' class="px-3 py-3 border border-morado rounded font-Rubik" /> <br>
-<label for="platform" class="text-gris pt-2 pb-2" required>E-commerce</label>
-<select name="platform" class="font-Rubik px-3 py-3 border border-morado rounded pb-4">
-<option value="">Desarrollo propio</option>
-<option value="">Shopify</option>
-<option value="">Magento</option>
-<option value="">WooCommerce</option>
-<option value="">Prestashop</option>
-<option value="">Otro</option>
-</select> <br>
-<label for="shipment" class="text-gris pt-2 pb-2">Envíos mensuales actuales</label>
-<input type='text' name='shipment' class="px-3 py-3 border border-morado rounded font-Rubik" /> <br>
-<input type='submit' name='submit' class="block lg:hidden mt-5 text-white bg-morado rounded-full font-bold font-Roboto p-2 px-16" /><div class="lg:p-10 p-5"></div></div></div></form><div class="w-full flex flex-col lg:flex-row bg-violeta pl-5 pb-5 hidden lg:block"><div class="w-full flex flex-col lg:flex-row "><div class="w-1/2 text-3xl pt-5 pl-16 font-Rubik">Follow us<div class="flex flex-row"><img class="justify-center p-2" src="static/instagram.png" alt=""><img class="justify-center p-2" src="static/twitter.png" alt=""><img class="justify-center p-2" src="static/whatsapp.png" alt=""><img class="justify-center p-2" src="static/facebook.png" alt=""></div></div><div class="w-1/2 text-3xl pt-5 font-Rubik">Contact us<div class="w-full flex flex-row"><div class="w-1/2 text-base pt-5 font-Rubik"><a href="tel:55-55-55-55">55-55-55-55</a></div><div class="w-1/2 text-base pt-5 font-Rubik"><a href="mailto:hola@aiba.com">hola@aiba.com</a></div></div></div></div></div><div class="w-full flex flex-col bg-violeta pl-5 block lg:hidden font-Rubik text-gris"><div class="w-1/2 text-base pt-5">CONTACTANOS<div class="w-full flex flex-row"><div class="w-1/2 text-base pt-5 font-Rubik"><a href="tel:55-55-55-55">55-55-55-55</a></div><div class="w-1/2 text-base pt-5 font-Rubik"><a href="mailto:hola@aiba.com">hola@aiba.com</a></div></div></div><div class="w-1/2 text-base pt-5">SIGUENOS<div class="flex flex-row"><img class="justify-center p-2" src="static/instagram.png" alt=""><img class="justify-center p-2" src="static/twitter.png" alt=""><img class="justify-center p-2" src="static/whatsapp.png" alt=""><img class="justify-center p-2" src="static/facebook.png" alt=""></div></div></div></div></div>
-<div class="w-full container p-20">
+</script><div class="w-full flex flex-col lg:flex-row container h-full mt-12"><div class="w-full lg:w-1/2 flex lg:block hidden"><img src="static/img.png" alt="" srcset=""></div><div class="w-full lg:w-1/2 px-2 flex flex-col justify-between"><div class="text-3xl pt-5 text-gris font-bold pl-5 lg:pl-20 pr-5 font-Roboto">Solicita una cotización<img class="lg:hidden block" src="static/img.png" alt=""></div><form class="w-full" action="#"><div class="w-full flex flex-row lg:pt-5 pt-5 flex-wrap"><div class="w-1/2  py-3"><label for="firstName" class="text-gris pb-2">Nombre y Apellidos</label>
+<input type='text' name='firstName' class="w-full p-3 border border-morado rounded font-Rubik" required /></div><div class="w-1/2  py-3"><label for="email" class="text-gris pt-2 pb-2" required>Correo electrónico</label>
+<input type='text' name='email' class="w-full p-3 border border-morado rounded font-Rubik" /></div><div class="w-1/2  py-3"><label for="phone" class="text-gris pt-2 pb-2" required>Teléfono</label> 
+<input type='text' name='phone' class="w-full p-3 border border-morado rounded font-Rubik" /></div><div class="w-1/2  py-3"><label for="company" class="text-gris pb-2">Nombre de la empresa</label>
+<input type='text' name='company' class="w-full p-3 border border-morado rounded font-Rubik" required /> </div><div class="w-1/2 py-3"><label for="platform" class="text-gris pt-2 pb-2">E-commerce</label>
+<select name="platform" class="w-full text-gris font-Rubik p-3 border border-morado rounded pb-4" required>
+<option value="Ninguno">Ninguno</option>
+<option value="Propio">Desarrollo propio</option>
+<option value="Shopify">Shopify</option>
+<option value="Magento">Magento</option>
+<option value="WooCommerce">WooCommerce</option>
+<option value="Prestashop">Prestashop</option>
+<option value="Otro">Otro</option>
+</select></div><div class="w-full"><input type='submit' name='submit' class="mt-5 text-white bg-morado rounded-full font-bold font-Roboto p-2 px-16" value="Contactar"/></div></div></form><div class="w-full flex flex-col-reverse lg:flex-row bg-violeta font-Rubik text-gris px-2 mt-12"><div class="lg:w-1/2 text-base pt-5 font-bold">SÍGUENOS<div class="flex flex-row"><img class="justify-center p-2" src="static/instagram.png" alt=""><img class="justify-center p-2" src="static/twitter.png" alt=""><img class="justify-center p-2" src="static/whatsapp.png" alt=""><img class="justify-center p-2" src="static/facebook.png" alt=""></div></div><div class="lg:w-1/2 text-base pt-5 font-bold">CONTÁCTANOS<div class="w-full flex flex-row"><div class="w-1/2 text-base pt-5 font-Rubik font-normal"><a href="tel:55-55-55-55">55-55-55-55</a></div><div class="w-1/2 text-base pt-5 font-Rubik font-normal"><a href="mailto:hola@aiba.com">hola@aiba.com</a></div></div></div></div></div></div><div class="w-full container p-20">
 <footer class="">
-    <div class="flex flex flex-col lg:flex-row">
-        <p class="w-full text-start text-texto">Términos y condiciones</p> 
-        <p class="w-full text-start text-texto">Aviso privacidad</p>
+    <div class="flex flex flex-col lg:flex-row text-Roboto text-gris">
+        <p class="w-full text-texto text-center mt-2 cursor-pointer"><a href="#">Términos y condiciones</a></a></p> 
+        <p class="w-full text-texto text-center mt-2 cursor-pointer"><a href="#">Aviso privacidad</a</p>
     </div>
 </footer></div>
 <script type="text/javascript" src="app.bundle.js"></script></body>
