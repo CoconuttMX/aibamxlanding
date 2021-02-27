@@ -927,16 +927,8 @@ img {
   padding-bottom: 0.75rem;
 }
 
-.pr-4 {
-  padding-right: 1rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
 }
 
 .pt-5 {
@@ -969,14 +961,6 @@ img {
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .absolute {
