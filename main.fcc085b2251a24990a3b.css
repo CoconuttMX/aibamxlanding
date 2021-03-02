@@ -766,10 +766,6 @@ img {
   font-size: 4rem;
 }
 
-.m-8 {
-  margin: 2rem;
-}
-
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -1511,6 +1507,11 @@ img {
     font-size: 3rem;
   }
 
+  .lg\:my-56 {
+    margin-top: 14rem;
+    margin-bottom: 14rem;
+  }
+
   .lg\:mt-24 {
     margin-top: 6rem;
   }
@@ -1586,4 +1587,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.3865c2036e9f5292281d.css.map*/
+/*# sourceMappingURL=main.fcc085b2251a24990a3b.css.map*/
