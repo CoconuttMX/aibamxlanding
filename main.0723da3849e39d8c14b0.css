@@ -714,10 +714,6 @@ img {
   height: 3rem;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
 .h-24 {
   height: 6rem;
 }
@@ -1495,6 +1491,10 @@ img {
     align-items: flex-start;
   }
 
+  .lg\:h-16 {
+    height: 4rem;
+  }
+
   .lg\:text-3xl {
     font-size: 1.875rem;
   }
@@ -1583,4 +1583,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.23e5372c9dab45a66e72.css.map*/
+/*# sourceMappingURL=main.0723da3849e39d8c14b0.css.map*/
