@@ -262,6 +262,10 @@ textarea {
  * Add the correct display in IE 10+.
  */
 
+template {
+  display: none;
+}
+
 /**
  * Add the correct display in IE 10.
  */
@@ -514,6 +518,30 @@ img {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+.bg-orange-600 {
+  --bg-opacity: 1;
+  background-color: #dd6b20;
+  background-color: rgba(221, 107, 32, var(--bg-opacity));
+}
+
+.bg-teal-100 {
+  --bg-opacity: 1;
+  background-color: #e6fffa;
+  background-color: rgba(230, 255, 250, var(--bg-opacity));
+}
+
+.bg-teal-300 {
+  --bg-opacity: 1;
+  background-color: #81e6d9;
+  background-color: rgba(129, 230, 217, var(--bg-opacity));
+}
+
+.bg-teal-500 {
+  --bg-opacity: 1;
+  background-color: #38b2ac;
+  background-color: rgba(56, 178, 172, var(--bg-opacity));
+}
+
 .bg-morado {
   --bg-opacity: 1;
   background-color: #5f17e1;
@@ -524,6 +552,12 @@ img {
   --bg-opacity: 1;
   background-color: #f0ecf8;
   background-color: rgba(240, 236, 248, var(--bg-opacity));
+}
+
+.hover\:bg-teal-600:hover {
+  --bg-opacity: 1;
+  background-color: #319795;
+  background-color: rgba(49, 151, 149, var(--bg-opacity));
 }
 
 .bg-no-repeat {
@@ -632,6 +666,10 @@ img {
   justify-content: space-between;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -664,6 +702,10 @@ img {
   font-weight: 700;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-3 {
   height: 0.75rem;
 }
@@ -686,6 +728,10 @@ img {
 
 .h-16 {
   height: 4rem;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .h-full {
@@ -737,6 +783,11 @@ img {
   margin-right: 0.25rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -770,6 +821,10 @@ img {
 .-my-40 {
   margin-top: -10rem;
   margin-bottom: -10rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .mr-1 {
@@ -822,6 +877,10 @@ img {
 
 .opacity-50 {
   opacity: 0.5;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .p-1 {
@@ -880,6 +939,11 @@ img {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-5 {
@@ -978,6 +1042,10 @@ img {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .bottom-0 {
   bottom: 0;
 }
@@ -1047,6 +1115,10 @@ img {
   width: 0.75rem;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1089,6 +1161,18 @@ img {
 
 .w-screen {
   width: 100vw;
+}
+
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+}
+
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 @keyframes spin {
@@ -1506,4 +1590,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.ff4b16ee5ba12e818789.css.map*/
+/*# sourceMappingURL=main.103c9322fc208b8df176.css.map*/
