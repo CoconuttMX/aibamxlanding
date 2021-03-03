@@ -165,7 +165,8 @@ select { /* 1 */
  */
 
 button,
-[type="button"] {
+[type="button"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -174,7 +175,8 @@ button,
  */
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -184,7 +186,8 @@ button::-moz-focus-inner,
  */
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -1472,4 +1475,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.5c52e83a40154c55e5f0.css.map*/
+/*# sourceMappingURL=main.37771d1fe3694ae2fc0a.css.map*/
