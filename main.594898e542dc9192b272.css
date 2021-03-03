@@ -676,6 +676,10 @@ img {
   height: 6rem;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -747,6 +751,10 @@ img {
   margin-bottom: -10rem;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -785,6 +793,10 @@ img {
 
 .mt-16 {
   margin-top: 4rem;
+}
+
+.mt-48 {
+  margin-top: 12rem;
 }
 
 .opacity-50 {
@@ -890,6 +902,11 @@ img {
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 .pt-2 {
@@ -1069,6 +1086,17 @@ img {
 
 .z-50 {
   z-index: 50;
+}
+
+.transform {
+  --transform-translate-x: 0;
+  --transform-translate-y: 0;
+  --transform-rotate: 0;
+  --transform-skew-x: 0;
+  --transform-skew-y: 0;
+  --transform-scale-x: 1;
+  --transform-scale-y: 1;
+  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
 }
 
 .transition-colors {
@@ -1475,4 +1503,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.37771d1fe3694ae2fc0a.css.map*/
+/*# sourceMappingURL=main.594898e542dc9192b272.css.map*/
