@@ -835,8 +835,12 @@ img {
   padding: 2.5rem;
 }
 
-.p-12 {
-  padding: 3rem;
+.p-20 {
+  padding: 5rem;
+}
+
+.p-32 {
+  padding: 8rem;
 }
 
 .py-2 {
@@ -943,10 +947,6 @@ img {
 
 .pl-5 {
   padding-left: 1.25rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .pt-10 {
@@ -1464,10 +1464,6 @@ img {
     padding: 4rem;
   }
 
-  .lg\:p-32 {
-    padding: 8rem;
-  }
-
   .lg\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -1503,4 +1499,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.d5fcb821e27fc8f91808.css.map*/
+/*# sourceMappingURL=main.272e0223abc42318b5f8.css.map*/
