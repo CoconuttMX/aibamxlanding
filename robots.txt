@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: 
+
+User-Agent: Baidu
+Disallow: /
+
+User-Agent: Teoma
+Disallow: /
+
+User-Agent: Yandex
+Disallow: /
+
+Sitemap: /sitemap.xml
